@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: black;
+}
+
+.uid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+}
+
+/* Loading screen --------------------- */
+
+#loading-bar-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#loading-bar {
+    position: absolute;
+    height: 20px;
+    width: 0%;
+    background-color: #3498db;
+    animation: loading 3s linear forwards;
+}
+
+
+
+/* Start Screen --------------------- */
+
+
+#start-uid{
+display: flex;
+flex-direction: row;
+
+}
+
+#opt_start{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 20px;
+
+}
+
+#opt_start p, #opt_start a{
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+
+#opt_start > div{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+
+#opt_start > div > p, #opt_start > div > a{
+    font-size: 2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+#opt_start p:hover, #opt_start a:hover{
+    color: red;
+}
+
+
+#deplacements{
+    padding: 10px 0 30px 40px;
+    width: 38%;
+    height: 58%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#deplacements{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#deplacements > p{
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+
+#notice-div >img{
+    width: 100%;
+    height: 50%;
+
+}
+
+/*#notice-div {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+} */
+
+#start-uid > button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin: 10px 10px;
+}
+
+
+#start-uid > button > img{
+    width: 50px;
+    height: 50px;
+}
+
+
+#start-button{
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translateX(-50%);
+    font-size: 5em;
+}
+
+/* Pause Screen --------------------- */
+
+#pause-uid > button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin: 10px 10px;
+}
+
+#pause-uid > button > img{
+    width: 50px;
+    height: 50px;
+}
+
+#pause-uid h1{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    margin: 50px 0 0 0;
+}
+
+#pause-uid > p{
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 100px;
+
+}
+
+#pause-uid > div{
+    position: relative;
+    width: 300px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 200px auto;
+
+}
+
+#pause-uid > div > button{
+    border: 1px solid rgba(255, 255, 255, 0.274);
+    background-color: #00000000;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 7px 15px;
+    border-radius: 10px;
+    transition: 0.8s;
+}
+
+#pause-uid > div > button:hover{
+    background-color: rgba(255, 255, 255, 0.274);
+    color: black;
+}
+
+#pause-uid > div > button:disabled{
+    background-color: rgba(255, 0, 0, 0.274);
+    color: black;
+}
+
+#pause-uid > div > button:active{
+    background-color: rgba(255, 255, 255, 0.274);
+    color: black;
+}
+
+#pause-uid > div > button:focus{
+    background-color: rgba(255, 255, 255, 0.274);
+    color: black;
+}
+
+
+#pause-uid > div > a{
+    font-size: 1.5em;
+    color: white;
+    cursor: pointer;
+}
+
+#pause-uid > button > img{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+/* Animations --------------------- */
+
+@keyframes loading {
+    from { width: 0%; }
+    to { width: 100%; }
+}
+
+
+
+
+#cross_hair{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1px;
+    height: 1px;
+    z-index: 100;
+    display: none;
+    border: solid 1px white;
+}
+
+#notice_interact{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+    color: white;
+    display: none;
+
+}
+
+#notice_change_lang{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    position: fixed;
+    top: 10px;
+}
+
+#bookInfo{
+    position: absolute;
+    bottom: 5%;
+    left: 10px;
+    width: 40%;
+    height: 50%;
+    color: white;
+}
+
+#bookTitle{
+    font-size: 2em;
+    color: rgb(255, 0, 0);
+    margin: 20px;
+    text-align: center;
+}
+
+#expo_title{
+    font-size: 4em;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    margin-top: -50px;
+}
+
+#expo_subtitle{
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+
+#help-moov{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+
+
+#help-moov img{
+    width: 60px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#help-moov img:hover{
+    transform: scale(1.1);
+}
+
+#help-moov > div{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    white-space: nowrap;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.image-container:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Exposition virtuelle sur Artemisia Gentileschi">
+    <meta name="keywords" content="Artemisia Gentileschi, exposition, virtuelle, 3D, Three.js, JavaScript, Artemisia, toiles d'une vie résiliente, résiliente, resiliente, toiles, vie, Toiles d'une vie, Toiles d une vie">
+    <meta name="author" content="Agence Art&Misia">
+    <link rel="stylesheet" href="./src/styles/root.css">
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <title>Artemisia Gentileschi, Toiles d'une vie résiliente</title>
+</head>
+<body>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "./src/three/build/three.module.js",
+                "GLTFLoader": "./src/three/examples/jsm/loaders/GLTFLoader.js",
+                "PointerLockControls": "./src/three/examples/jsm/controls/PointerLockControls.js"
+            }
+        }
+    </script>
+    <div id="cross_hair"></div>
+    <p id="notice_interact">Appuyez sur <img src="src/ressources/icons/F_before.svg" alt="Touche pour interagir"> pour interagir</p>
+    <div id="bookInfo">
+        <p id="notice_change_lang">Appuyez sur <img src="src/ressources/icons/X_before.svg" alt="Touche pour changer de langue"> pour changer de langue</p>
+        <h3 id="bookTitle"></h3>
+        <p id="bookDescription"></p>
+    </div>
+
+    <div id="loading-uid" class="uid">
+        <p id="waiting_text">le saviez-vous...</p>
+        <div id="loading-bar"></div>
+        <div id="loading-cube"></div> 
+    </div>
+    <div id="start-uid" class="uid">
+        <!-- <button><img src="./src/ressources/icons/sound_on_white.svg" alt="son"></button> -->
+        <button id="lang-toggle-start" class="lang-toggle"><img src="src/ressources/icons/X_before.svg" alt="Changer de langue"><p id="lang-toggle-start-p">Changer de langue</p></button>
+
+        <div id="notice-div">
+            <div id="deplacements">
+                <h1 id="h1_movements">Déplacements</h1>
+                <h2 id="h2_movements"></h2>
+                <p id="notice_avancer">Appuyez sur <img src="src/ressources/icons/Z_before.svg" alt="Touche pour avancer"> pour avancer</p>
+                <p id="notice_reculer">Appuyez sur <img src="src/ressources/icons/S_before.svg" alt="Touche pour reculer"> pour reculer</p>
+                <p id="notice_gauche">Appuyez sur <img src="src/ressources/icons/Q_before.svg" alt="Touche pour aller à gauche"> pour aller à gauche</p>
+                <p id="notice_droite">Appuyez sur <img src="src/ressources/icons/D_before.svg" alt="Touche pour aller à droite"> pour aller à droite</p>
+                <p id="notice_lampe">Appuyez sur <img src="src/ressources/icons/T_before.svg" alt="Touche pour activer/désactiver la lampe torche"> pour activer/désactiver la lampe torche</p>
+                <p id="notice_interagir">Appuyez sur <img src="src/ressources/icons/F_before.svg" alt="Touche pour interagir"> pour interagir</p>
+            </div>
+        </div>
+
+        <div id="opt_start">
+            <h1 id="expo_title">Artemisia Gentileschi</h1>
+            <h2 id="expo_subtitle">Toiles d’une vie résilliente</h2>
+            <p id="start-button">Commencer</p>
+            <div>
+                <a href="mentions-legales.html">Mentions légales</a>
+            </div>
+        </div>
+    </div>
+    <div id="pause-uid" class="uid">
+        <!-- <button><img src="./src/ressources/icons/sound_on_white.svg" alt="son"></button> -->
+        <button id="lang-toggle-pause" class="lang-toggle"><img src="src/ressources/icons/X_before.svg" alt="Changer de langue"><p id="lang-toggle-pause-p">Changer de langue</p></button>
+
+        <h1>Menu Pause</h1>
+        <div>
+            <button id="resume-button">Reprendre</button>
+            <a href="index.html">Respawn</a>
+            <div id="help-moov">
+                <h2 id="help-pause">Aide</h2>
+                <p>Passe ta souris au dessus des différentes touches pour connaitre leur utilité</p>
+                <div>
+                    <img src="./src/ressources/icons/Z_before.svg" alt="Touche pour avancer">
+                    <img src="./src/ressources/icons/Q_before.svg" alt="Touche pour aller à gauche">
+                    <img src="./src/ressources/icons/S_before.svg" alt="Touche pour reculer">
+                    <img src="./src/ressources/icons/D_before.svg" alt="Touche pour aller à droite">
+                </div>
+                <div>
+                    <img src="./src/ressources/icons/F_before.svg" alt="Touche pour intéragir">
+                    <img src="./src/ressources/icons/T_before.svg" alt="Touche pour éteindre/allumer la lampe-torche">
+                    <img src="./src/ressources/icons/X_before.svg" alt="Touche pour changer de langue">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="params" class="uid">
+        <h1>Paramètres</h1>
+        <button>Plein écran</button>
+        <button>Son</button>
+        <button>Retour</button>
+    </div>
+    <script type="module" src="src/scripts/script.js"></script>    
+    <script type="module" src="src/scripts/loadingScreen.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+{
+  "en": {
+    "expoTitle": "Artemisia Genteleschi",
+    "expoSubtitle": "A resiliente life in paintings",
+    "startButton": "Start",
+    "resumeButton": "Resume",
+    "languageToggle": "to switch Language",
+    "deplacements":{
+      "h1": "Movements",
+      "h2": "Navigation Instructions",
+      "press": "Press",
+      "press_tab": "Look at the book and press",
+      "avancer": "to move forward",
+      "reculer": "to move backward",
+      "gauche": "to move left",
+      "droite": "to move right",
+      "interagir": "to interact",
+      "lampe": "to turn on/off the lamp"
+    },
+    "tab": {
+      "b1": {
+        "title": "Judith décapitant Holopherne",
+        "text": "This striking painting by Artemisia Gentileschi depicts Judith, an Israelite widow, beheading the Assyrian general Holofernes to save her people. Despite a first version in 1612 interrupted by a tragic personal event, Artemisia Gentileschi returns with force to this scene, offering an original feminine vision of violence and vengeance in the early 17th century. The energy and solidarity between the protagonists, expressed with technical mastery, define this work. Gentileschi challenges the norms of the time by presenting violence and vengeance from a female point of view, testifying to her resilience in the face of adversity. This exhibition explores Artemisia Gentileschi's artistic legacy and perseverance, placing her work within an enduring dialogue about power, resilience and female creativity."
+      },
+      "b2": {
+        "title": "Judith et sa servante",
+        "text": "This captivating painting by Artemisia Gentileschi shows Judith, a biblical figure, accompanied by her servant. Judith holds the severed head of Holofernes, the Assyrian general, while her maid helps her place the head in a basket. This powerful scene speaks of the determination and strength of these women as they carry out their mission. Judith's determined expression and the complicity between the two women are beautifully captured, highlighting Artemisia Gentileschi's artistic skill. The work offers a unique vision of feminine strength and solidarity in a historical context where such representations were rare. The work is part of a wider narrative of Artemisia Gentileschi's contribution to Baroque art, highlighting her dedication to depicting strong, resolute women in her paintings."
+      },
+      "b3": {
+        "title": "Judith et sa servante Abra avec la tête d'Holopherne",
+        "text": "This intriguing work by Artemisia Gentileschi, executed between 1645 and 1650, presents Judith and her maid Abra in a moving scene. While Abra, kneeling, hides Holofernes' severed head behind a curtain, Judith, standing beside her, observes the scene through the same curtain. This unusual composition creates dramatic tension, underlining the complicity of the two women in their daring act. Judith's determined expression and Abra's protective gesture highlight the strength and solidarity of the characters. Artemisia Gentileschi skilfully depicts the psychological complexity of the situation, capturing the emotional intensity of the moment. The artist's technical mastery is also evident in the carefully executed details and subtle use of light. This painting, housed at the Museo di Capodimonte in Naples, is a testament to the exceptional talent of Artemisia Gentileschi, one of the few female artists to break into the world of Baroque art. Her interpretation of the story of Judith and Holofernes offers a unique and captivating perspective on this classic biblical tale."
+      },
+      "b4": {
+        "title": "Esther devant Ahasuerus",
+        "text": "This painting by Artemisia Gentileschi represents a crucial moment in the biblical story when Esther, a young Jewish woman, appears before the Persian king Ahasuerus to plead on behalf of her people. Artemisia Gentileschi captures the dramatic tension of the scene as Esther courageously makes her request before the sovereign. Esther's intense expression and careful composition illustrate Artemisia Gentileschi's artistic mastery. The artist brings the biblical story to life by highlighting the strength and determination of the female protagonist, offering a unique and moving perspective on this episode. This work continues Artemisia Gentileschi's tradition of highlighting strong, determined women in historical contexts often dominated by men. It testifies to the artist's ability to capture moments of emotional intensity and narrative power."
+    },
+    "b5": {
+      "title": "Autoportrait",
+      "text": "This 17th-century Baroque masterpiece shows Artemisia Gentileschi in a striking self-portrait as the muse of painting. Her direct look and confident pose captivate, reflecting her strength and determination in a male-dominated art world. Inspired by Caravaggio, Artemisia Gentileschi uses light and shade to accentuate contrasts, creating a dramatic atmosphere that amplifies the emotional depth of the work. Artemisia Gentileschi's superb technical mastery is highlighted by her rich details and subtle play of light. His self-portrait is a testament to his resilience and exceptional talent, leaving an indelible mark on the history of art. This work illustrates Artemisia Gentileschi's importance as a Baroque artist and female pioneer in a historical context where female artists were often marginalized. Her self-portrait embodies her strength, determination and artistic genius, establishing her place among the great artists of her time."
+    },
+    "b6": {
+      "title": "Marie-Madeleine en extase",
+      "text": "This moving painting by Artemisia Gentileschi presents Mary Magdalene in a state of religious ecstasy. The artist captures Mary Magdalene's deep devotion, fervent contemplation and total surrender to spirituality, offering a striking depiction of the Christian faith. Mary Magdalene's intense expression and subtle artistic composition show Gentileschi's technical mastery. The artist succeeds in conveying spirituality and emotion through the details of the work, offering a poignant interpretation of the religious figure. This work is part of the artistic tradition of depicting religious figures in Baroque art. Artemisia Gentileschi brings her own artistic sensibility to this representation, highlighting the emotional strength and piety of Mary Magdalene."
+    }
+  }
+  },
+  "fr": {
+    "expoTitle": "Artemisia Genteleschi",
+    "expoSubtitle": "Toiles d’une vie résilliente",
+    "startButton": "Commencer",
+    "resumeButton": "Reprendre",
+    "languageToggle": "pour changer de langue",
+    "deplacements":{
+      "h1": "Déplacements",
+      "h2": "Instructions de navigation",
+      "press": "Appuyer sur",
+      "press_tab": "Regardez le livre et appuyer sur",
+      "avancer": "pour avancer",
+      "reculer": "pour reculer",
+      "gauche": "pour aller à gauche",
+      "droite": "pour aller à droite",
+      "interagir": "pour interagir",
+      "lampe": "pour ON/OFF la lampe"
+    },
+    "tab": {
+      "b1": {
+        "title": "Judith décapitant Holopherne",
+        "text": "Cette toile saisissante d'Artemisia Gentileschi représente Judith, une veuve israélite, décapitant le général assyrien Holopherne pour sauver son peuple. Malgré une première version en 1612 interrompue par un tragique événement personnel, Artemisia Gentileschi revient avec force sur cette scène, offrant une vision féminine inédite de la violence et de la vengeance au début du 17e siècle. L'énergie et la solidarité entre les protagonistes, exprimées avec maîtrise technique, définissent cette œuvre. Gentileschi défie les normes de l'époque en présentant la violence et la vengeance d'un point de vue féminin, témoignant de sa résilience face à l'adversité. Cette exposition explore l'héritage artistique et la persévérance d'Artemisia Gentileschi, inscrivant son œuvre dans le dialogue continu sur le pouvoir, la résilience et la créativité féminine."
+      },
+      "b2": {
+        "title": "Judith et sa servante",
+        "text": "Cette toile captivante d'Artemisia Gentileschi représente Judith, une figure biblique, accompagnée de sa servante. Judith tient la tête coupée d'Holopherne, le général assyrien, tandis que sa servante l'aide à placer la tête dans un panier. Cette scène puissante évoque la détermination et la force de ces femmes dans l'accomplissement de leur mission. L'expression déterminée de Judith et la complicité entre les deux femmes sont magnifiquement capturées, mettant en valeur la maîtrise artistique de Artemisia Gentileschi. L'œuvre offre une vision unique de la force féminine et de la solidarité dans un contexte historique où de telles représentations étaient rares. Cette œuvre s'inscrit dans le récit plus large de la contribution d'Artemisia Gentileschi à l'art baroque, mettant en lumière son engagement à représenter des femmes fortes et résolues dans ses peintures."
+      },
+      "b3": {
+        "title": "Judith et sa servante Abra avec la tête d'Holopherne",
+        "text": "Cette œuvre intrigante d'Artemisia Gentileschi, exécutée entre 1645 et 1650, présente Judith et sa servante Abra dans une scène émouvante. Tandis qu'Abra, agenouillée, cache la tête coupée d'Holopherne derrière un rideau, Judith, debout à ses côtés, observe la scène à travers le même rideau. Cette composition inhabituelle crée une tension dramatique, soulignant la complicité des deux femmes dans leur acte audacieux. L'expression déterminée de Judith et le geste protecteur d'Abra mettent en lumière la force et la solidarité des personnages. Artemisia Gentileschi dépeint avec habileté la complexité psychologique de la situation, capturant l'intensité émotionnelle du moment. La maîtrise technique de l'artiste est également visible à travers les détails soigneusement exécutés et l'utilisation subtile de la lumière. Ce tableau, conservé au Museo di Capodimonte à Naples, témoigne du talent exceptionnel d'Artemisia Gentileschi, l'une des rares femmes artistes à avoir réussi à percer dans le monde de l'art baroque. Son interprétation de l'histoire de Judith et Holopherne offre une perspective unique et captivante sur ce récit biblique classique."
+      },
+      "b4": {
+        "title": "Esther devant Ahasuerus",
+        "text": "Cette toile d'Artemisia Gentileschi représente un moment crucial du récit biblique où Esther, une jeune femme juive, se présente devant le roi perse Ahasuerus pour plaider en faveur de son peuple. Artemisia Gentileschi capture la tension dramatique de la scène alors qu'Esther déploie courageusement sa requête devant le souverain. L'expression intense d'Esther et la composition soignée illustrent la maîtrise artistique de Artemisia Gentileschi. L'artiste donne vie à l'histoire biblique en mettant en avant la force et la détermination de la protagoniste féminine, offrant ainsi une perspective unique et émouvante de cet épisode. Cette œuvre s'inscrit dans la lignée du travail d'Artemisia Gentileschi qui met en lumière des femmes fortes et déterminées dans des contextes historiques souvent dominés par les hommes. Elle témoigne de la capacité de l'artiste à capturer des moments d'intensité émotionnelle et de puissance narrative."
+      },
+      "b5": {
+        "title": "Autoportrait",
+        "text": "Ce chef-d'œuvre baroque du XVIIe siècle dépeint Artemisia Gentileschi dans un autoportrait saisissant où elle incarne la muse de la peinture. Son regard direct et sa pose assurée captivent, reflétant sa force et sa détermination dans un monde artistique dominé par les hommes. Inspirée par le Caravage, Artemisia Gentileschi utilise le clair-obscur pour accentuer les contrastes, créant ainsi une atmosphère dramatique qui amplifie la profondeur émotionnelle de l'œuvre. La maîtrise technique éblouissante de Artemisia Gentileschi est mise en évidence par ses riches détails et ses subtils jeux de lumière. Son autoportrait témoigne de sa résistance et de son talent exceptionnel, laissant une marque indélébile dans l'histoire de l'art. Cette œuvre illustre l'importance d'Artemisia Gentileschi en tant qu'artiste baroque et pionnière féminine dans un contexte historique où les femmes artistes étaient souvent marginalisées. Son autoportrait incarne sa force, sa détermination et son génie artistique, établissant ainsi sa place parmi les grands maîtres de son époque."
+      },
+      "b6": {
+        "title": "Marie-Madeleine en extase",
+        "text": "Cette toile émouvante d'Artemisia Gentileschi présente Marie-Madeleine dans un état d'extase religieuse. L’artiste capture la profonde dévotion de Marie-Madeleine, sa contemplation fervente et son abandon total à la spiritualité, offrant ainsi une représentation saisissante de la foi chrétienne. L'expression intense de Marie-Madeleine et la composition artistique subtile démontrent la maîtrise technique de Gentileschi. L'artiste parvient à transmettre la spiritualité et l'émotion à travers les détails de l'œuvre, offrant une interprétation poignante de la figure religieuse. Cette œuvre s'inscrit dans la tradition artistique de la représentation de figures religieuses dans l'art baroque. Artemisia Gentileschi apporte sa propre sensibilité artistique à cette représentation, mettant en avant la force émotionnelle et la piété de Marie-Madeleine."
+      }
+    } 
+  }
+}

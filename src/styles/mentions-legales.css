@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+#mention-title, #mention-subtitle{
+    color: white;
+    text-align: center;
+}
+
+#mention-title{
+    margin-top: 50px;
+    color: rgb(255, 0, 0);
+}
+
+#mention-subtitle{
+    margin-bottom: 50px;
+}
+
+section > *{
+    color: white;
+}
+section{
+    width: 100%;
+    padding: 20px;
+}
+
+section > h1, section > p{
+    font-size: 1.2em;
+}
+
+section > h1{
+    font-size: 2em;
+}
+
+section > p > a{
+    color: red;
+}
+
+
+.wrapper{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card{
+    text-decoration: none;
+
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    background: #000;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+.card > p{
+    margin-top: 5px;
+    font-size: 1.5em;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+.role{
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: rgb(255, 255, 255);
+}
+
+#return-home{
+    color: white;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    transition: 0.5s;
+    
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ffc2c2;
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+}
+
